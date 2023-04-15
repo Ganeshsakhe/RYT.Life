@@ -1,0 +1,48 @@
+1 .. http://localhost:8906/v1/doctor/upcomingEmployeeAppointment
+     
+    method : get
+    headers 
+    {
+        authorization : JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDlhNjQ4ODBmNjQxMTU2ODI1NGMyMzIiLCJpYXQiOjE2NDI3NTc1NDQsImV4cCI6MTY0NTE3Njc0NH0.93xmuu8qDBSpWw0KVNvGzCkpO3SpaCGKu4FjoyKM3uM
+    }
+
+2 .. http://localhost:8906/v1/admin/getAppointmentByEmployeeName?first_name=Murali&last_name=palli
+     
+    method : get
+    headers
+    {
+        authorization : JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGMxOTdmMWMxMGU3MTExMWRmNzFkZWUiLCJpYXQiOjE2NDI4MzA5MjYsImV4cCI6MTY0NTI1MDEyNn0.u9xKU3j9nfGCAR1R-EIbpFIGRZRdZ3Xh4iE4FBsC0HY
+    }
+
+3 .. http://localhost:8906/v1/admin/getEmployeeById?employeeId=61deb131279366468959ff4f
+
+    method : get
+    headers
+    {
+        authorization : JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGMxOTdmMWMxMGU3MTExMWRmNzFkZWUiLCJpYXQiOjE2NDI4MzA5MjYsImV4cCI6MTY0NTI1MDEyNn0.u9xKU3j9nfGCAR1R-EIbpFIGRZRdZ3Xh4iE4FBsC0HY
+    }
+
+4 .. http://localhost:8906/v1/admin/getAllEmployeeBooking
+
+    method : get
+    headers
+    {
+        authorization : JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGMxOTdmMWMxMGU3MTExMWRmNzFkZWUiLCJpYXQiOjE2NDI4MzA5MjYsImV4cCI6MTY0NTI1MDEyNn0.u9xKU3j9nfGCAR1R-EIbpFIGRZRdZ3Xh4iE4FBsC0HY
+    }
+
+5 .. http://localhost:8906/v1/admin/getEmployeeAppointmentByDoctorsName?name=Mohan Reddy
+
+   method : get
+   headers 
+   {
+       authorization : JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDlhNjQ4ODBmNjQxMTU2ODI1NGMyMzIiLCJpYXQiOjE2NDI3NTc1NDQsImV4cCI6MTY0NTE3Njc0NH0.93xmuu8qDBSpWw0KVNvGzCkpO3SpaCGKu4FjoyKM3uM
+   }
+
+6 .. http://localhost:8906/v1/admin/getCorporateBookingByRating?rating=2
+
+   method : get
+   headers 
+   {
+       authorization : JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDlhNjQ4ODBmNjQxMTU2ODI1NGMyMzIiLCJpYXQiOjE2NDI3NTc1NDQsImV4cCI6MTY0NTE3Njc0NH0.93xmuu8qDBSpWw0KVNvGzCkpO3SpaCGKu4FjoyKM3uM
+   }
+   
